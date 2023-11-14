@@ -1,0 +1,24 @@
+{
+    "schema_version": "v0.1",
+    "name_for_human": "Planning Center Helper",
+    "name_for_model": "planning-center-helper",
+    "description_for_human": "Integrate with Planning Center to help manage your people and events.",
+    "description_for_model": "Plugin for managing a user's Planning Center account. You can view, add, remove, and modify information about events and people.",
+    "auth": {
+        "type": "oauth",
+        "client_url": "https://api.planningcenteronline.com/oauth/authorize",
+        "scope": "calendar,services,check-ins",
+        "authorization_url": "PLUGIN_HOSTNAME/auth/oauth_exchange",
+        "authorization_content_type": "application/json",
+        "verification_tokens": {
+            "openai": "Replace_this_string_with_the_verification_token_generated_in_the_ChatGPT_UI"
+        }
+    },
+    "api": {
+        "type": "openapi",
+        "url": "PLUGIN_HOSTNAME/openapi.yaml"
+    },
+    "logo_url": "PLUGIN_HOSTNAME/logo.png",
+    "contact_email": "evan@planningcenter.com",
+    "legal_info_url": "https://www.planningcenter.com/terms"
+}
