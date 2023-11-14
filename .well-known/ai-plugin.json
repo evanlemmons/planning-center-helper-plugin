@@ -18,7 +18,7 @@
         "type": "openapi",
         "url": "PLUGIN_HOSTNAME/openapi.yaml"
     },
-    "logo_url": "PLUGIN_HOSTNAME/logo.png",
+    "logo_url": "https://raw.githubusercontent.com/evanlemmons/planning-center-helper-plugin/main/planning_center_icon.png",
     "contact_email": "evan@planningcenter.com",
     "legal_info_url": "https://www.planningcenter.com/terms"
 }
